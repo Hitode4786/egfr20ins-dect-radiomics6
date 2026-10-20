@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article and this software release."
+title: "Locked-threshold evaluation for EGFR exon 20 insertion DECT radiomics"
+type: software
+version: 1.0.0
+date-released: 2026-10-20
+license: MIT
+authors:
+  - name: "The Authors"
+preferred-citation:
+  type: article
+  title: "Locked-threshold evaluation exposes operability failure in EGFR exon 20 insertion DECT radiomics"
+  status: "under review"
+repository-code: "REPOSITORY_URL_TO_BE_ADDED_AT_PUBLIC_RELEASE"
+abstract: "Code and synthetic simulation artifacts accompanying a restricted-data radiomics case study."

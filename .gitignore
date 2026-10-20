@@ -1,0 +1,44 @@
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+
+# Restricted clinical inputs and derived outputs
+data/*
+!data/README.md
+results/
+outputs/
+*.nii
+*.nii.gz
+*.dcm
+*.parquet
+*.xlsx
+*.xls
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+*.log
+
+# The committed synthetic Figure 7 evidence under simulation/outputs is retained.
+!simulation/
+!simulation/outputs/
+!simulation/outputs/**

@@ -1,0 +1,30 @@
+{
+  "development_n": 187,
+  "test_n": 61,
+  "test_positives": 4,
+  "development_positives": [
+    4,
+    8,
+    16
+  ],
+  "recall_floor": 0.75,
+  "threshold_selection_fraction": 0.4,
+  "workflow": "fit model on development fitting subset; select threshold on independent development threshold-selection subset; apply same fitted model and frozen threshold to independent test set; no refit after threshold selection",
+  "scenarios": [
+    "Gaussian separated",
+    "Gaussian high overlap",
+    "Bernoulli weak signal"
+  ],
+  "learners": [
+    "Logistic regression",
+    "Decision tree"
+  ],
+  "repetitions": 1000,
+  "seed": 20261019,
+  "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "numpy": "2.4.6",
+  "pandas": "3.0.3",
+  "scikit_learn": "1.9.0",
+  "matplotlib": "3.10.9"
+}
