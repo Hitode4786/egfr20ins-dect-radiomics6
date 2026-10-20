@@ -1,4 +1,5 @@
 # Locked-threshold evaluation for EGFR exon 20 insertion DECT radiomics
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23503899.svg)](https://doi.org/10.5281/zenodo.23503899)
 
 This repository accompanies the manuscript *Locked-threshold evaluation exposes operability failure in EGFR exon 20 insertion DECT radiomics*. It contains analysis source code and a fully synthetic, independently runnable Figure 7 simulation. It does not contain clinical images, labels, feature matrices, patient-level predictions, fitted clinical models, or model checkpoints.
 
