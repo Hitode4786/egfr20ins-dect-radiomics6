@@ -12,4 +12,5 @@ preferred-citation:
   title: "Locked-threshold evaluation exposes operability failure in EGFR exon 20 insertion DECT radiomics"
   status: "under review"
 repository-code: "https://github.com/Hitode4786/egfr20ins-dect-radiomics6"
+doi: 10.5281/zenodo.23503899
 abstract: "Code and synthetic simulation artifacts accompanying a restricted-data radiomics case study."
